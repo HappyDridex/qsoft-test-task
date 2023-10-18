@@ -1,0 +1,117 @@
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+
+/**
+   * Remove the margin in all browsers.
+   */
+
+body,
+figure {
+    margin: 0;
+}
+
+/**
+   * Add the correct display in IE 9-.
+   */
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-size: 100%; /* 1 */
+    font-weight: inherit;
+}
+
+/* Lists
+     ========================================================================== */
+
+/**
+   * Remove the list styles in all browsers.
+   */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Form elements
+     ========================================================================== */
+
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+}
+
+/**
+   * Remove the inheritance of text transform in Edge and Firefox.
+   * 1. Remove the box-sizing in Edge.
+   * 2. Remove the padding in Firefox.
+   */
+
+button {
+    background: none;
+    padding: 0;
+}
+
+button,
+input {
+    text-transform: none;
+    border: none;
+    outline: none;
+}
+
+/* Custom
+     ========================================================================== */
+
+/* Add your custom styles below this line */
+
+/* Example of setting margin and padding for specific elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 1rem 0;
+}
+
+p {
+    margin: 1rem 0;
+}
