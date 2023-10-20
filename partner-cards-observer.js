@@ -23,7 +23,6 @@ function observePartnerCards() {
     );
 
     cards.forEach((card) => {
-        console.log(card);
         observer.observe(card);
     });
 }
